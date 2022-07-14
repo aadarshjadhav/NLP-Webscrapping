@@ -1,0 +1,41 @@
+1.Perform select a single url and perform all the objective given
+
+2.Use user agent form to acess the html page.
+
+3.Use Beautiful soup to extract text it from htmml
+
+4.Extract html text with h1 tags and <p> tags ONLYp
+
+5.Remove all unwanted tags from html text such as <strong>, <em>,<p> etc
+
+6.Remove all special characters,puntuations and numericals leaving the alphabets using re.sub()
+
+7.Calculate total number of words in clean text
+
+8.calculate total number of sentences using nltk.tokenize
+
+9.count no.of personal pronouns excluding country US,
+
+10.Calculate number of complex words with syllables more than 2
+
+11.Calculate average sentence length
+
+12.make every letters in html text in lower case to remove stopwords(dont forgot to extend the stopwords from personal list also!!!) 
+
+13.Count number of matching positive words between html text and positive word list, same goes for counting negative word list
+
+13.5. Remove additional"<", ">","[","]","." etc unwanted characters
+
+14.Don't not trust TextBlob, rather consider to perform manual calculation of porilarity,number of sentences,subjectivity, syllables, complex words etc
+
+15.Calculate Polarity score,Subjectivity score, number of words after removing stopwords,percentage of complex words, fog index, average number of sentence perword and all others too.
+
+16.Concantenate to main data frame
+
+17.Put all of this in a single function
+
+18.Use for loop on this function by passing every single html URL's on this function.
+
+19.Fix index number of URL_ID before ecporting
+
+20.Export into excel as .xlsx file
