@@ -7,7 +7,6 @@
 import pandas as pds
 import requests
 import textstat
-import spacy
 from textstat.textstat import textstatistics
 import textstat
 from nltk.tokenize import word_tokenize
